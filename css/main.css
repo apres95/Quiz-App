@@ -1,13 +1,39 @@
+* {
+	font-family: 'Arvo', serif;
+	 text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	color: white;
+}
+body {
+	background-image: url("../img/internet.jpg");
+	background-position: center;
+	background-size: cover;
+}
 .title {
 	text-align:center;
-	font-size:50px;
+	font-size:70px;
+	margin: 40px;
+	font-weight: bold;
+	text-shadow: -4px 0 black, 0 4px black, 4px 0 black, 0 -4px black;
+}
+
+.correctQuestion {
+	color: #178217;
 }
 .correct {
-	color:green;
+	color:#178217 ;
+	font-weight: bold;
+	font-size: 50px;
+
+}
+
+.incorrectQuestion {
+	color: #d22d2d;
 }
 
 .incorrect {
-	color:red;
+	color: #d22d2d;
+	font-weight: bold;
+	font-size: 50px;
 }
 
 h1.correct, h1.incorrect {
